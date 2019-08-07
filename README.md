@@ -1,1 +1,1 @@
-# Chrome extension that makes powerschool learning work better!
+# Chrome extension that makes wolverine access work better!
