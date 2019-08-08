@@ -1,7 +1,7 @@
 {
-  "name": "Mobile Notes",
+  "name": "GoNotes",
   "version": "1.0",
-  "description": "Take easy notes on every site.",
+  "description": "Easy, accesible notes on every site.",
   "permissions": ["activeTab","declarativeContent", "storage"],
   "background": {
     "scripts": ["background.js"],
@@ -15,6 +15,9 @@
         "mac": "Command + Shift + E"
         }
     }
+  },
+  "chrome_url_overrides": {
+    "newtab": "newTab.html"
   },
   "browser_action": {
     "default_icon": {
