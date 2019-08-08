@@ -15,7 +15,7 @@
           text-align: center;
           font-size: 12px;
         }
-        input{
+        #submitButton{
           border-style:none;
           color: white;
           background-color: #98C7F0;
@@ -24,16 +24,35 @@
           margin-right: auto;
           margin-top: 5px;
         }
-        input:hover{
+        #submitButton:hover{
           text-decoration: underline;
+        }
+        .smallNote{
+          border-style: none;
+          background-color:#EAF4FC;
+          color: #98C7F0;
+          margin-bottom: 5px;
+          padding-right:10px;
+        }
+        li{
+          margin-left:5px;
+          color:#98C7F0;
+        }
+        ul{
+          margin-left: 0;
+          padding-left:10px;
         }
       </style>
     </head>
     <body>
       <h1>Enter Notes:</h1>
       <form class="" action="newTab.html" method="post" id="notesForm">
-        <textarea name="note" rows="8" cols="20" form="notesForm"></textarea>
-        <input type="submit"></input>
+        <ul>
+          <li><input type="text" name="note" class="smallNote" autofocus="autofocus"></li>
+          <li><input type="text" name="note" class="smallNote"></li>
+        </ul>
+        <!-- <textarea name="note" rows="8" cols="20" form="notesForm" id="noteInput" ></textarea> -->
+        <input type="submit" id="submitButton"></input>
       </form>
     </body>
   </html>
