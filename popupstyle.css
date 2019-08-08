@@ -1,0 +1,40 @@
+textarea{
+  border-style: none;
+  background-color: #EAF4FC;
+  color: #98C7F0;
+}
+html{
+  background-color: #BEDDF9;
+}
+h1{
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+#submitButton{
+  border-style:none;
+  color: white;
+  background-color: #98C7F0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+#submitButton:hover{
+  text-decoration: underline;
+}
+.smallNote{
+  border-style: none;
+  background-color:#EAF4FC;
+  color: #98C7F0;
+  margin-bottom: 5px;
+  padding-right:10px;
+}
+li{
+  margin-left:5px;
+  color:#98C7F0;
+}
+ul{
+  margin-left: 0;
+  padding-left:10px;
+}
