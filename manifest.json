@@ -1,28 +1,23 @@
 {
-  "name": "Wolverine Accessible",
+  "name": "Mobile Notes",
   "version": "1.0",
-  "description": "Better UI design for Wolverine Access",
+  "description": "Take easy notes on every site.",
   "permissions": ["activeTab","declarativeContent", "storage"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
   "options_page":"option.html",
-  "page_action": {
-    "default_popup": "popup.html",
+  "browser_action": {
     "default_icon": {
       "16": "images/icon16.png",
       "32": "images/icon32.png",
       "48": "images/icon48.png",
       "128": "images/icon128.png"
-    }
+    },
+    "default_title": "Notes",
+    "default_popup": "popup.html"
   },
-  "content_scripts": [
-   {
-     "matches": ["http://wolverineaccess.umich.edu/*"],
-     "css": ["style.css"]
-   }
- ],
   "icons": {
     "16": "images/icon16.png",
     "32": "images/icon32.png",
