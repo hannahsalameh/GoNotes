@@ -4,7 +4,7 @@ textarea{
   color: #98C7F0;
 }
 html{
-  background-color: #BEDDF9;
+  background-color: #407088;
 }
 h1{
   color: white;
@@ -14,7 +14,7 @@ h1{
 #submitButton{
   border-style:none;
   color: white;
-  background-color: #98C7F0;
+  background-color: #132743;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -26,13 +26,13 @@ h1{
 .smallNote{
   border-style: none;
   background-color:#EAF4FC;
-  color: #98C7F0;
+  color: #407088;
   margin-bottom: 5px;
   padding-right:10px;
 }
 li{
   margin-left:5px;
-  color:#98C7F0;
+  color:#132743;
 }
 ul{
   margin-left: 0;
