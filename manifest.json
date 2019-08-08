@@ -8,6 +8,14 @@
     "persistent": false
   },
   "options_page":"option.html",
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "windows": "Ctrl + Shift + E",
+        "mac": "Command + Shift + E"
+        }
+    }
+  },
   "browser_action": {
     "default_icon": {
       "16": "images/icon16.png",
