@@ -37,3 +37,17 @@ hr{
   box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
   overflow-y: scroll;
 }
+
+#clear{
+  background-color: #407088;
+  color: white;
+  border-style:none;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+#clear:hover{
+  background-color: #132743;
+}

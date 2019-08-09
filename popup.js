@@ -23,7 +23,7 @@ function checkNotes() {
 function saveNote(title,body){
   chrome.storage.sync.set({ [title] : body });
   errorText.innerHTML = "Notes saved!";
-  chrome.storage.sync.get(null,function(result){
-    console.log(result);
-  });
+  // chrome.storage.sync.get(null,function(result){
+  //   console.log(result);
+  // });
 };
