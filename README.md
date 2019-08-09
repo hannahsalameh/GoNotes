@@ -3,7 +3,7 @@ GoNotes is a chrome extension independently developed by Hannah Salameh as a way
 ## Downloading the extension
 As of now, this application **only** works on google chrome, so make sure you are using Chrome.
 
-Then navigate to 'https://chrome.google.com/webstore/category/extensions' and search GoNotes to find the application.
+Then navigate to `https://chrome.google.com/webstore/category/extensions` and search GoNotes to find the application.
 
 ## How to use the application
 Press Ctrl + Shift + E to open GoNotes on windows. On mac, Command + Shift + E works instead.
