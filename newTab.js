@@ -11,6 +11,6 @@ function loadData(){
 loadData();
 
 //test code, look into this tomorrow
-function efficientLoad(){
-  for 
-}
+// basically,, want to create more li bullets for more notes
+// so i have to log notes into different data items and do a for loop to put in all the items
+//then i can either add a button to clear items or something else

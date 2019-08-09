@@ -11,11 +11,8 @@ html{
 li{
   font-size: 20px;
 }
-#note1{
+.smallNote{
   padding-top:20px;
-  margin-left:20px;
-}
-#note2{
   margin-left:20px;
 }
 hr{
