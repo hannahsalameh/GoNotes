@@ -1,1 +1,1 @@
-# Chrome extension that makes wolverine access work better!
+# Chrome extension that makes it easy to take notes!
