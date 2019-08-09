@@ -5,13 +5,14 @@
     </head>
     <body>
       <h1>Enter Notes:</h1>
-      <form class="" action="saveNotes()" id="notesForm">
+      <p id="insertText"></p>
+      <form action="popup.html" id="notesForm">
         <ul>
           <li><input type="text" name="note" class="smallNote" autofocus="autofocus" id="note1"></li>
           <li><input type="text" name="note" class="smallNote" id="note2"></li>
         </ul>
-        <!-- <textarea name="note" rows="8" cols="20" form="notesForm" id="noteInput" ></textarea> -->
-        <input type="button" id="submitButton" onClick="saveNotes()" value="Submit"></input>
+        <input type="button" id="submitButton" value="submit"></input>
+        <script src="popup.js"></script>
       </form>
     </body>
   </html>
