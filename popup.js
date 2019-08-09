@@ -21,7 +21,6 @@ function checkNotes() {
 //save the new note to be able to retrieve later
 
 function saveNote(title,body){
-  chrome.storage.sync.clear();
   chrome.storage.sync.set({ [title] : body });
   errorText.innerHTML = "Notes saved!";
   chrome.storage.sync.get(null,function(result){
