@@ -1,11 +1,22 @@
 h1{
   text-align: center;
   color: white;
+  font-size: 30px;
 }
 html{
   background-color: #407088;
   min-height: 100vh;
   min-width: 100vh;
+}
+li{
+  font-size: 20px;
+}
+#note1{
+  padding-top:20px;
+  margin-left:20px;
+}
+#note2{
+  margin-left:20px;
 }
 hr{
   min-width: 100vh;
@@ -20,10 +31,12 @@ hr{
   border:0;
 }
 .notePage{
-  background-color: #f5e1da;
+  background-color: white;
   color: #407088;
   margin-left: 3%;
   margin-right: 3%;
+  padding-bottom: 30%;
+  border-radius: 5%;
   box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
   overflow-y: scroll;
 }
