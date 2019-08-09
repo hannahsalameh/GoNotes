@@ -1,10 +1,9 @@
 h1{
   text-align: center;
-  color: white;
   font-size: 30px;
 }
 html{
-  background-color: #407088;
+  background-color: #385170;
   min-height: 100vh;
   min-width: 100vh;
 }
@@ -28,8 +27,8 @@ hr{
   border:0;
 }
 .notePage{
-  background-color: white;
-  color: #407088;
+  background-color: #ececec;
+  color: #385170;
   margin-left: 3%;
   margin-right: 3%;
   padding-bottom: 30%;
@@ -37,10 +36,12 @@ hr{
   box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
   overflow-y: scroll;
 }
-
+.note:hover{
+  text-decoration:line-through;
+}
 #clear{
-  background-color: #407088;
-  color: white;
+  background-color: #385170;
+  color: #f2f6f5;
   border-style:none;
   box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
   display:block;
@@ -49,5 +50,5 @@ hr{
   font-size: 20px;
 }
 #clear:hover{
-  background-color: #132743;
+  background-color: #142d4c;
 }

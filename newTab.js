@@ -7,7 +7,7 @@ function loadData(){
     let noteKey = Object.keys(results);
     for (let item of noteKey){
       let noteVal = results[item];
-      displayData(item, noteKey);
+      displayData(item, noteVal);
     }
   });
 }
@@ -22,13 +22,12 @@ function displayData(title, body){
   noteHolder.appendChild(noteLi);
 }
 
+//clear button functionality
+
 let clearButton = document.getElementById('clear');
 clearButton.addEventListener("click", clearFxn);
 
 function clearFxn(){
   chrome.storage.sync.clear();
+  document.location.reload(true);
 }
-//test code, look into this tomorrow
-// basically,, want to create more li bullets for more notes
-// so i have to log notes into different data items and do a for loop to put in all the items
-//then i can either add a button to clear items or something else
