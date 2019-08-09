@@ -13,13 +13,10 @@ function saveNotes() {
     return;
   }
   else {
-    console.log(text1);
-    chrome.storage.sync.set({'value1':text1}, function() {
-      console.log(text1);
-    });
-    chrome.storage.sync.set({'value2':text2}, function() {
+    chrome.storage.sync.set({keyName:"default"});
+    chrome.storage.sync.set({value:text1});
+    chrome.storage.sync.set({value1:text2}, function() {
       errorText.innerHTML = "Both notes saved!";
-      console.log(text2);
     });
   }
 }

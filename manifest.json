@@ -1,7 +1,7 @@
 {
   "name": "GoNotes",
   "version": "1.0",
-  "description": "Easy, accesible notes on every site.",
+  "description": "Easy, accesible notes on every page.",
   "permissions": ["activeTab","declarativeContent", "storage"],
   "background": {
     "scripts": ["background.js"],
