@@ -9,3 +9,8 @@ function loadData(){
   });
 }
 loadData();
+
+//test code, look into this tomorrow
+function efficientLoad(){
+  for 
+}
